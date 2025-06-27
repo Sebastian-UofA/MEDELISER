@@ -1,0 +1,6 @@
+@echo off
+echo Installing dependencies...
+pip install -r requirements.txt
+echo Starting Meter Excel Processor...
+streamlit run streamdep.py
+pause
